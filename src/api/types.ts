@@ -4,7 +4,8 @@ export type LoginParamsType = {
     rememberMe: boolean
     captcha?: string
 }
-// types
+
+
 export type TodolistType = {
     id: string
     title: string
@@ -18,7 +19,6 @@ export type ResponseType<D = {}> = {
     fieldsErrors?: Array<FieldErrorType>
     data: D
 }
-
 export enum TaskStatuses {
     New = 0,
     InProgress = 1,
